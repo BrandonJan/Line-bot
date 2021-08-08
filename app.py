@@ -56,7 +56,7 @@ def handle_message(event):
             sticker_message)
         return
 
-    if msg in ['hi', 'Hi']:  # 如果訊息中包含Hi或hi
+    elif msg in ['hi', 'Hi']:  # 如果訊息中包含Hi或hi
         r == '嗨'
 
     elif msg == '你是誰':
